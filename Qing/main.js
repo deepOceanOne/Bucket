@@ -1,0 +1,1 @@
+require("file_get_contents_sync")("http://www.baidu.com","string");
