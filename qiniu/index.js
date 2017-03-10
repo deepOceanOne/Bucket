@@ -1,7 +1,7 @@
 var qiniu = require("qiniu");
 
-qiniu.conf.ACCESS_KEY = 'DqvJP-ITkUwXFFwo70JjOY5QAFttOQGzzUMVzuED';
-qiniu.conf.SECRET_KEY = 'n82Vc2kCzFBtde2qL9eYFjFI8JJL788_BDhP1vzP';
+qiniu.conf.ACCESS_KEY = process.env.qiniuaccess;
+qiniu.conf.SECRET_KEY = process.env.qiniusecret;
 //要上传的空间
 bucket = 'from-wechat';
 //上传到七牛后保存的文件名

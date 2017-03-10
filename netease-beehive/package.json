@@ -1,0 +1,11 @@
+{
+  "name": "netease-bucket",
+  "version": "1.0.0",
+  "description": "网易蜂巢  桶存储",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
